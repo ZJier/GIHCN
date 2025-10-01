@@ -27,7 +27,7 @@ Since the generative information of different modalities is extracted separately
 ## Citation
 If this work is helpful to you, you can refer to the following.
 
-Zhang J, Zhao F, Liu H, et al. Generative information-guided heterogeneous cross-fusion network with contrastive learning for multimodal remote sensing image classification[J]. IEEE Transactions on Circuits and Systems for Video Technology, 2025, Early Access. DOI: https://doi.org/10.1109/TCSVT.2025.3614153.
+Zhang J., Zhao F., Liu H., et al. Generative information-guided heterogeneous cross-fusion network with contrastive learning for multimodal remote sensing image classification[J]. IEEE Transactions on Circuits and Systems for Video Technology, 2025, Early Access. DOI: https://doi.org/10.1109/TCSVT.2025.3614153.
 
 ## Previous work: 
 If you need to learn more about the diffusion model methods of HSIC, you can refer to our previous work (DKDMN) and SpectralDiff.
@@ -37,4 +37,4 @@ Zhang J., Zhao F., Liu H., et al. Data and knowledge-driven deep multiview fusio
 ## Special Thanks!
 Thanks to the SpectralDiff authors for their contributions to the hyperspectral image classification community, and welcome to cite their latest work!
 
-Chen N, Yue J, Fang L, et al. SpectralDiff: A generative framework for hyperspectral image classification with diffusion models[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023, 61: 5522416. DOI: https://doi.org/10.1109/TGRS.2023.3310023.
+Chen N., Yue J., Fang L., et al. SpectralDiff: A generative framework for hyperspectral image classification with diffusion models[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023, 61: 5522416. DOI: https://doi.org/10.1109/TGRS.2023.3310023.
