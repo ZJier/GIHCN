@@ -37,4 +37,4 @@ Zhang J., Zhao F., Liu H., et al. Data and knowledge-driven deep multiview fusio
 ## Special Thanks!
 Thanks to the SpectralDiff authors for their contributions to the hyperspectral image classification community, and welcome to cite their latest work!
 
-Chen N, Yue J, Fang L, et al. SpectralDiff: A generative framework for hyperspectral image classification with diffusion models[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023, 61: 5522416. DOI: 10.1109/TGRS.2023.3310023.
+Chen N, Yue J, Fang L, et al. SpectralDiff: A generative framework for hyperspectral image classification with diffusion models[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023, 61: 5522416. DOI: https://doi.org/10.1109/TGRS.2023.3310023.
