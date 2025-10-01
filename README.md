@@ -20,6 +20,8 @@ We do not mind if the algorithm's classification performance in new environments
 
 For the generative information of different datasets, please refer to Baidu Netdisk: https://pan.baidu.com/s/1Vbo09Hx38W8RV6bDesP6Sg?pwd=RSGI; Code 1: https://github.com/chenning0115/spectraldiff_diffusion/ or Code 2: https://github.com/ZJier/DKDMN.
 
+Although we have provided all the generative information of four datasets, we hope that you can run the code related to the diffusion model to facilitate your use of more datasets.
+
 Since the generative information of different modalities is extracted separately, Code 1 and Code 2 can realize the generative information extraction for different modalities.
 
 ## Citation
