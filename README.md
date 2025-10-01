@@ -20,3 +20,18 @@ We do not mind if the algorithm's classification performance in new environments
 For the generative information of different datasets, please refer to Baidu Netdisk: https://pan.baidu.com/s/1Vbo09Hx38W8RV6bDesP6Sg?pwd=RSGI; Code 1: https://github.com/chenning0115/spectraldiff_diffusion/ or Code 2: https://github.com/ZJier/DKDMN.
 
 Since the generative information of different modalities is extracted separately, Code 1 and Code 2 can realize the generative information extraction for different modalities.
+
+## Citation
+If this work is helpful to you, you can refer to the following.
+
+Zhang J, Zhao F, Liu H, et al. Generative information-guided heterogeneous cross-fusion network with contrastive learning for multimodal remote sensing image classification[J]. IEEE Transactions on Circuits and Systems for Video Technology, 2025, Early Access. DOI: https://doi.org/10.1109/TCSVT.2025.3614153.
+
+## Previous work: 
+If you need to learn more about the diffusion model methods of HSIC, you can refer to our previous work (DKDMN) and SpectralDiff.
+
+Zhang J., Zhao F., Liu H., et al. Data and knowledge-driven deep multiview fusion network based on diffusion model for hyperspectral image classification[J]. Expert Systems with Applications, 2024, 249: 123796. DOI: https://doi.org/10.1016/j.eswa.2024.123796.
+
+## Special Thanks!
+Thanks to the SpectralDiff authors for their contributions to the hyperspectral image classification community, and welcome to cite their latest work!
+
+Chen N, Yue J, Fang L, et al. SpectralDiff: A generative framework for hyperspectral image classification with diffusion models[J]. IEEE Transactions on Geoscience and Remote Sensing, 2023, 61: 5522416. DOI: 10.1109/TGRS.2023.3310023.
