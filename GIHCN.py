@@ -337,11 +337,12 @@ class MMHSIC(nn.Module):
         emb_dim = 256
         patch_size = 1
 
+        self.dkfms = DKFM(self.datasetname)
         self.view_net1 = DiffViT_CLS(channels_1, num_classes, image_size, datasetname, head_dim, 
                                      hidden_dim, emb_dim, patch_size, lambda_g, lambda_m)
         self.view_net2 = DiffViT_CLS(channels_2, num_classes, image_size, datasetname, head_dim, 
                                      hidden_dim, emb_dim, patch_size, lambda_g, lambda_m)
-        self.dkfms = DKFM(self.datasetname)
+        
 
     def forward(self, x1, x2):
         view1_x, view2_x = self.dkfms(x1, x2)
@@ -354,6 +355,8 @@ class MMHSIC(nn.Module):
 
 if __name__ == '__main__':
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    # input1: [batch_size, cat[hsi_data(30), lidar_diff(2)/sar_diff(4)/msi_diff(8)], patch_size, patch_size]
+    # input2: [batch_size, cat[lidar_data(2)/sar_data(4)/msi_data(8), hsi_diff(30)], patch_size, patch_size]
     input1 = torch.randn(size=(64, 32, 11, 11)).to(device)
     input2 = torch.randn(size=(64, 32, 11, 11)).to(device)
     print("input 1 shape:", input1.shape)
