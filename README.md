@@ -9,7 +9,7 @@ Ubuntu 22.04.4 LTS (GNU/Linux 6.6.87.2-microsoft-standard-WSL2 x86_64)
 
 Python 3.10.13-----Torch 2.1.1
 
-You must install the relevant libraries for Mamba.
+You must install the relevant libraries for Mamba. If you cannot import the Mamba library, you can comment out `from mamba_ssm import Mamba` and `self.mamba = Mamba(d_model=self.emb_dim, d_state=self.d_state, d_conv=self.d_conv, expand=self.expand, bimamba_type='v2',)` in the GIHCN.py file, then replace it with a ViT layer. You may need other hyperparameters, such as num_heads, head_dim, num_layers.
 
 ## Other
 For convenience, we have written all modules related to the proposed method into the GIHCN file.
