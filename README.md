@@ -17,6 +17,6 @@ We only open-source the proposed method and the loss function. This is because w
 
 We do not mind if the algorithm's classification performance in new environments/versions/frameworks is lower or higher than that reported in the paper.
 
-For the generative information of different datasets, please refer to Baidu Netdisk: 12344556; Code 1: https://pan.baidu.com/s/1Vbo09Hx38W8RV6bDesP6Sg?pwd=RSGI or Code 2: 1234567890 or Code 3: .
+For the generative information of different datasets, please refer to Baidu Netdisk: https://pan.baidu.com/s/1Vbo09Hx38W8RV6bDesP6Sg?pwd=RSGI; Code 1: https://github.com/chenning0115/spectraldiff_diffusion/ or Code 2: https://github.com/ZJier/DKDMN.
 
 Since the generative information of different modalities is extracted separately, Code 1 and Code 2 can realize the generative information extraction for different modalities.
